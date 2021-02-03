@@ -33,7 +33,9 @@ export default function App() {
                         <Dashboard/>
                     </Route>
                     <Route path="/test">
-                        <Test/>
+                        <div>
+                            <h2>Test was clicked</h2>
+                        </div>
                     </Route>
                 </Switch>
 
@@ -63,14 +65,6 @@ function Dashboard() {
     return (
         <div>
             <h2>Dashboard was clicked</h2>
-        </div>
-    );
-}
-
-function Test() {
-    return (
-        <div>
-            <h2>Test was clicked</h2>
         </div>
     );
 }
